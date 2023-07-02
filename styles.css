@@ -1,0 +1,29 @@
+.countdown-container {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #07ceca;
+  padding: 20px;
+}
+
+#countdown {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/c0/9a/97/c09a97a8f18cb8908ea897639cbe4fa8.gif");
+  background-repeat: repeat;
+  background-size: 100px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #countdown {
+    font-size: 24px;
+  }
+
+h1 {
+ 
+  padding: 10px;
+}
+}
